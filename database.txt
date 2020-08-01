@@ -1,0 +1,26 @@
+# Create Database name - hopegivers
+
+CREATE TABLE `contact` (
+  `id` int(11) NOT NULL,
+  `name` varchar(20) NOT NULL,
+  `email` varchar(50) NOT NULL,
+  `subject` varchar(50) NOT NULL,
+  `message` varchar(100) NOT NULL
+);
+
+CREATE TABLE `donate` (
+  `id` int(11) NOT NULL,
+  `amount` varchar(50) NOT NULL,
+  `email` varchar(50) NOT NULL,
+  `date` varchar(50) NOT NULL
+);
+
+CREATE TABLE `userdata` (
+  `id` int(11) NOT NULL,
+  `first_name` varchar(20) NOT NULL,
+  `last_name` varchar(20) NOT NULL,
+  `email` varchar(50) NOT NULL,
+  `address` varchar(100) NOT NULL,
+  `DOB` varchar(20) NOT NULL,
+  `password` varchar(30) NOT NULL
+);
