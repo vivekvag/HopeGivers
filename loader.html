@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="css/loader.css">
+</head>
+
+<body>
+  <div id="loader" class="center">
+
+  </div>
+
+  <!-- Loader Code -->
+  <script type="text/javascript">
+  document.onreadystatechange = function() {
+    if (document.readyState !== "complete") {
+      document.querySelector(
+        "body").style.visibility = "hidden";
+        document.querySelector(
+          "#loader").style.visibility = "visible";
+        } else {
+          document.querySelector(
+            "#loader").style.display = "none";
+            document.querySelector(
+              "body").style.visibility = "visible";
+            }
+          };
+          
+          </script>
+
+        </body>
+
+        </html>
